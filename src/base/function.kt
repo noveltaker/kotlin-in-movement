@@ -1,9 +1,10 @@
-package function
+package base
 
 fun main(args: Array<String>) {
-   toPrintTest()
+   var str = "test ... !!"
+   toPrintTest(str)
 }
 
-fun toPrintTest(){
-   println("funtion test")
+fun toPrintTest(str : String){
+   println("funtion test sucess >> " + str)
 }
