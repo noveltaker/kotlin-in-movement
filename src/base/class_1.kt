@@ -15,18 +15,11 @@ get & set 로 작성 시 loop error 발생 ...
  */
 fun main(args: Array<String>) {
 
-    try {
+    var item = Item()
 
-        var item = Item()
+    item.title = "test.."
 
-        item.title = "test.."
+    println(item.title)
 
-        println(item.title)
-
-        item.count = 11
-
-    } catch (e: Exception) {
-        e.printStackTrace()
-    }
-
+    item.count = 11
 }
