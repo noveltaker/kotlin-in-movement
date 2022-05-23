@@ -9,9 +9,7 @@ class Book {
     private var descrition = ""
 
     private var pages: Int = 0
-
 }
-
 
 class Persistence {
 

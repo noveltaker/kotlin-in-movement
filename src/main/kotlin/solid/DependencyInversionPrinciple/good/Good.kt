@@ -7,7 +7,6 @@ interface Developer {
 class FEDeveloper : Developer {
 
     private fun writerHtmlCode() {
-
     }
 
     override fun develop() {
@@ -18,7 +17,6 @@ class FEDeveloper : Developer {
 class BEDeveloper : Developer {
 
     private fun writerKotlinCode() {
-
     }
 
     override fun develop() {

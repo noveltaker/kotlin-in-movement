@@ -41,4 +41,3 @@ fun multiple(i: Int, j: Int) = i * j
 infix fun Int.times(str: String) = str.repeat(this)
 
 infix fun String.auto(str: String) = String.format("%s_%s", str, this)
-

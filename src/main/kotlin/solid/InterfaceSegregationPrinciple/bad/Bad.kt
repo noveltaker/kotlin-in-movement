@@ -24,5 +24,4 @@ class Troll : Character {
     override fun dance() {
         TODO("Not yet implemented")
     }
-
 }

@@ -12,5 +12,4 @@ fun main(args: Array<String>) {
     baton.attack()
 
     spiderMan.attack()
-
 }

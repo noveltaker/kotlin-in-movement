@@ -22,7 +22,6 @@ class BMW : ICar {
     override fun stop() {
         println(">>>>>>>>>>>> stop")
     }
-
 }
 
 fun main(args: Array<String>) {
@@ -41,5 +40,4 @@ fun main(args: Array<String>) {
     var bmw: BMW = BMW()
 
     bmw.move()
-
 }

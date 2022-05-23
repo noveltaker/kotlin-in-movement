@@ -3,13 +3,11 @@ package solid.DependencyInversionPrinciple.bad
 class FEDeveloper {
 
     fun writerHtmlCode() {
-
     }
 }
 
 class BEDeveloper {
     fun writerKotlinCode() {
-
     }
 }
 
