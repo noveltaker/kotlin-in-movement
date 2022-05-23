@@ -6,7 +6,7 @@ plugins {
     application
 }
 
-group = "me.user"
+group = "org.example"
 version = "1.0"
 
 repositories {
